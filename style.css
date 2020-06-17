@@ -1,0 +1,48 @@
+html {
+    text-align: center;
+}
+
+.container {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient( white, #4ddbff);
+
+}
+
+.grid div {
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+    
+}
+
+.tetromino {
+    background-color: #1a3300;
+}
+
+.minigrid {
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4ddbff;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.minigrid div {
+    height: 20px;
+    width: 20px;
+}
+
+
+
