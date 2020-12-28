@@ -1,5 +1,17 @@
 html {
     text-align: center;
+    font-family: 'Helvetica', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #444;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 25px;
+}
+
+h3.control {
+    font-style: italic;
+    margin-bottom: 3rem;
 }
 
 .container {
@@ -13,13 +25,14 @@ html {
     height: 600px;
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient( white, #4ddbff);
+    background: #fefefe;
 
 }
 
 .grid div {
     height: 30px;
     width: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     
 }
